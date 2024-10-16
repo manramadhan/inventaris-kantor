@@ -31,14 +31,14 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Edit Barang</title>
-    <link rel="stylesheet" href="../inventory_management/style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
         <h1>Edit Barang</h1>
         <form method="POST">
             <label>Nama Barang</label>
-            <input type="text" name="nama_barang" value="<?= htmlspecialchars($row['nama_barang']) ?>" required>
+            <input type="text" name="nama_barang" value="<?= htmlspecialchars($row['nama_barang']) ?>" required autofocus>
 
             <label>Kategori</label>
             <input type="text" name="kategori" value="<?= htmlspecialchars($row['kategori']) ?>" required>

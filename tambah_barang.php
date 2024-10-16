@@ -33,7 +33,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
         <h1>Tambah Barang</h1>
         <form method="POST">
             <label>Nama Barang</label>
-            <input type="text" name="nama_barang" required>
+            <input type="text" name="nama_barang" required autofocus>
 
             <label>Kategori</label>
             <select name="kategori" required>
