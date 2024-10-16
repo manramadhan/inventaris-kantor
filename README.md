@@ -3,7 +3,7 @@
 
 Sistem Inventaris Kantor adalah aplikasi berbasis web yang dirancang untuk membantu pengelolaan dan pelacakan barang-barang di lingkungan kantor. Aplikasi ini memungkinkan pengguna untuk menambah, mengedit, dan menghapus data barang dengan mudah, serta melihat daftar inventaris yang tersedia. Dengan antarmuka yang sederhana dan intuitif, pengguna dapat dengan cepat mengakses informasi yang dibutuhkan mengenai barang yang ada di kantor.
 
-![gambar](ss-inventaris_kantor.png)
+![gambar](/screenshot/ss-inventaris_kantor.png)
 
 - ## Fitur Utama
 1. Tambah Barang: Pengguna dapat menambahkan barang baru ke dalam sistem dengan mengisi detail seperti nama barang, kategori, jumlah, tanggal, dan deskripsi.
